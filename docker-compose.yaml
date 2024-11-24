@@ -1,0 +1,6 @@
+services:
+  go-http-bench:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    restart: on-failure
